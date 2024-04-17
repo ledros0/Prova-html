@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(59, 56, 56);
+}
+.Tudo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgb(59, 56, 56);
+    margin-top: 200px;
+}
+
+form {
+    display: inline-flex;
+    text-align: center;
+    border: 10px solid rgba(96, 109, 185, 0.671);
+    padding: 50px;
+    border-radius: 5px;
+    color: rgb(174, 186, 231);
+}
+
+input {
+    padding: 1%;
+    margin-bottom: 10%;
+}
+
+.username, .E-mail, .CPF, .Senha {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    padding: 20px;
+}
+
+button {
+    font-size: 30px;
+    margin-top: 40%;
+    margin-left: 20%;
+    background-color: rgba(96, 109, 185, 0.671);
+    text-decoration: white;
+    border-radius: 10%;
+    color: white;
+}
+header {
+    color: white;
+    text-decoration: dashed;
+    inline-size: 1000px;
+    margin-left: 23%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav, li{
+    list-style-type: disc;
+    margin: 10px;
+    padding: 0;
+    background-color:black;
+    text-align: center;
+}
+
+nav, ul ,li{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav, a {
+    display: inline-block;
+    margin-right: 0px;
+    color: white;
+    text-decoration: none;
+    padding: 50px, 20px;
+    left: 700px;
+    
+}
+
+a:hover{
+    color: rgb(208, 216, 212);
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+}
+
+nav ul ul li{
+    display: block;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
